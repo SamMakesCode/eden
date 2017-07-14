@@ -1,0 +1,7 @@
+from Eden.Game import Game
+
+game = Game()
+try:
+    game.run()
+except KeyboardInterrupt:
+    game.shutdown()
